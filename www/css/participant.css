@@ -1,0 +1,38 @@
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.viewer-fill-browser .touch{
+    position:absolute !important;
+}
+
+.message {
+	position:absolute;
+	margin-top:30%;
+	width:100%;
+  font-size: 34px;
+  text-align:center;
+  z-index: -1;
+
+}
+
+#spinner {
+  font-size: 34px;
+  line-height: 2.5;
+  text-align:center;
+  transform-style: preserve-3d;
+
+  -webkit-animation: spinner 2s infinite linear;
+  animation: spinner 2s infinite linear;  
+}
+
+@-webkit-keyframes spinner {
+  0% { -webkit-transform: rotateZ(0deg) }
+  100% { -webkit-transform: rotateZ(360deg) }
+}
+@keyframes spinner {
+  0% { -webkit-transform: rotateZ(0deg) }
+  100% { -webkit-transform: rotateZ(360deg) }
+}

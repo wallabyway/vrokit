@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "forge-claudia-executor",
+    "name": "forge-claudia",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "0rwcyzgoj9"
+  }
+}
